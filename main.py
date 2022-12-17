@@ -8,6 +8,7 @@ if __name__ == '__main__':
 @sprite Sprite { # New Sprite
     @event on_key_pressed("X") { # On key pressed "X"
         x = 10+5*10 # Set var x to 1
+        x = 10
     }
 }"""
     tokens = lexer.tokenize(input_str)
